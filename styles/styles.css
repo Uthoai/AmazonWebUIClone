@@ -1,43 +1,48 @@
-body{
-    background-color: rgb(218, 213, 213);
+*{
+    padding: 0;
+    margin: 0;
 }
-#headerDiv1{
-    height: 100px;
-    background-color: rgb(41, 40, 40);
+
+body{
+    background-color: rgb(230, 232, 235);
+}
+#navDiv{
+    height: 60px;
+    background-color: #0F1111;
     border: 3px solid white;
 }
 
 #name{
-    color: chocolate;
+    color: #F08804;
     text-decoration: none;
-    height: 100px;
-    margin: 20px 100px 50px 20px;
+    font-size: 18px;
+    margin-right: 200px;
+    margin-left: 20px;
 }
 
 #account{
     color: white;
-    margin: 20px 100px 50px 0px;
+    margin-right: 200px;
     text-decoration: none;
 }
 
 #myCart{
     color: white;
-    margin: 20px 100px 50px 0px;
+    margin-right: 200px;
     text-decoration: none;
 }
 
 #contactUs{
     color: white;
-    margin: 20px 100px 50px 0px;
+    margin-right: 200px;
     text-decoration: none;
 }
 
 #search{
-    margin: 20px 0px 50px 0px;
+    margin-top: 10px;
 }
 
 #btnSearch{
     color: white;
-    margin: 20px 0px 50px 0px;
-    background-color: chocolate;
+    background-color: #F08804;
 }
