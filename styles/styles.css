@@ -47,7 +47,9 @@ span{
 .logo{
     height: 50px;
     width: 100%;
+    background-image: url("../images/amazon-logo.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* nav-address */
@@ -192,8 +194,9 @@ span{
 
 /*  hero sectin */
 .hero-section{
-    height: 360px;
-    background-image: url("https://m.media-amazon.com/images/I/7130x7c9NmL._SX3000_.jpg");
+    height: 320px;
+    /* background-image: url("https://m.media-amazon.com/images/I/7130x7c9NmL._SX3000_.jpg"); */
+    background-image: url('../images/baner01.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -218,21 +221,77 @@ span{
     color: #007185;
 }
 
-/* main content */
-main{
-    background-color: #E3E6E6;
-}
+/* shop-section */
 .shop-section{
     display: flex;
-    background-color: #E3E6E6;
+    background-color: #e2e7e6;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.productContainerBox{
-    height: 420px;
-    width: 100%;
-    margin: 25px 25px;
+.productsContainerBox{
+    height: 400px;
+    width: 22%;
     background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
+.productsContainer{
+    margin: 10px 20px;
+}
+
+.box-heading{
+    height: 56px;
+    margin-bottom: 10px;
+}
+
+.box-img-layout {
+    margin: 10px 0px;
+    height: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.productsContainerBox p {
+    margin: 5px 0px;
+    
+}
+
+.productsContainerBox a {
+    font-size: 0.75rem;
+    color: #007185;
+}
+
+/* add product img by category */
+.img1 {
+    background-image: url("../images/products_fashion_trends.jpg");
+}
+.img2 {
+    background-image: url("../images/products_personal_care.jpg");
+}
+.img3 {
+    background-image: url("../images/products_toys.jpg");
+}
+.img4 {
+    background-image: url("../images/product_home_essentials.jpg");
+}
+.img5 {
+    background-image: url("../images/products_gaming.jpg");
+}
+.img6 {
+    background-image: url("../images/product_home_kitchen.jpg");
+}
+.img7 {
+    background-image: url("../images/product_amazon_basis.jpg");
+}
+.img8 {
+    background-image: url("../images/products_new_year_now.jpg");
+}
+
 
 
 /* footer{
